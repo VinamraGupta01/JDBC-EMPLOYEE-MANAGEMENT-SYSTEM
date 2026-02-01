@@ -1,0 +1,26 @@
+# Compiled Java files
+*.class
+
+# Output folders
+out/
+bin/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# External libraries
+lib/
+
+# Environment variables
+.env
