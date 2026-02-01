@@ -33,26 +33,25 @@ This project focuses on clean backend architecture, proper separation of concern
 JDBC-EMPLOYEE-MANAGEMENT-SYSTEM
 │
 ├── src/
-│ ├── dao/
-│ │ ├── EmployeeDao.java
-│ │ └── EmployeeDaoImplementation.java
-│ │
-│ ├── model/
-│ │ └── Employee.java
-│ │
-│ ├── util/
-│ │ └── DBConnection.java
-│ │
-│ └── main/
-│ └── Main.java
+│   ├── main/
+│   │   └── Main.java
+│   │
+│   ├── dao/
+│   │   ├── EmployeeDao.java
+│   │   └── EmployeeDaoImplementation.java
+│   │
+│   ├── model/
+│   │   └── Employee.java
+│   │
+│   └── util/
+│       └── DBConnection.java
 │
 ├── lib/
-│ └── mysql-connector-j-8.x.x.jar
+│   └── mysql-connector-j-8.x.x.jar
 │
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
 
 ---
 
